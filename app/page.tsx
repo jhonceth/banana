@@ -5,7 +5,7 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Enviar',
+      label: 'Story time',
     },
     {
       action: 'tx',
@@ -25,10 +25,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'Banana 1',
+  title: 'zizzamia.xyz',
   description: 'LFG',
   openGraph: {
-    title: 'Banana 2',
+    title: 'zizzamia.xyz',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>jhon.codes</h1>
+      <h1>zizzamia.xyz</h1>
     </>
   );
 }
